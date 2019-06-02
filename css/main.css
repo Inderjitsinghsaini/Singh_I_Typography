@@ -1,0 +1,131 @@
+@font-face {
+  font-family: 'goonies';
+  src:  url('fonts/GrenadierNF.woff2') format('woff2'),
+        url('fonts/GrenadierNF.woff') format('woff');
+}
+.hidden
+{
+	display:none;
+}
+body
+{
+	background-color: #fff;
+
+}
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+.container
+{
+	width:2009px;
+	margin:0 auto;
+}
+#mainHeader
+{
+	display:flex;
+	flex-direction : row;
+	
+}
+#mainHeader h1
+{
+	color: #57b4ff;
+  font-size: 80px;
+  letter-spacing: -1px;
+  text-align: center;
+  font-family:  "Grenadier NF",sans-serif;
+  }
+.headerHero
+{
+	height: 478px;
+  width: 2009px;
+  background: url(../images/headerimage.jpg) no-repeat bottom; 
+  position: relative; /*set to relative to anything that uses absolute inside will positioned to the top left corner of this element*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+h1
+{	
+
+	font-weight:300;
+	font-size:80px;
+    color:#9bac73;
+    letter-spacing: 7px;
+    margin:0;
+    padding-left: 50px;
+}
+
+#AnglersFeatures
+{
+	
+display:flex;
+	flex-direction : column;
+	background-color: #e0e0e0;
+	
+
+}
+#feature
+{
+	display:inline-block;
+
+
+
+}
+#AnglersFeatures img
+{
+  width:650px;
+  height:432px;
+  position: relative;
+   float:left;
+  margin-top: 250px;
+  margin-left:45px;
+
+
+}
+
+#Rainbow
+{
+	display:inline;
+
+}
+
+#Rainbow img
+{
+	width:1382px;
+	height:1037px;
+	margin-left: 270px
+
+}
+
+p
+{
+	color:#6b6b69;
+	font-size: 30px;
+	line-height:45px;
+	font-weight: 250;
+	position:relative;
+	float:left;
+	margin-top:280px;
+	margin-left: 150px;
+	padding:0;
+}
+
+
+#dropcap
+{
+	color:#000;
+	font-size: 70px;
+	font-weight: 400;
+	line-height:70px;
+	float:left;
+	margin: 5px 10px 0 0;
+}
+
+.Rainbow p
+{
+	float:left;
+	margin_right:40px;
+}
